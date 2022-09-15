@@ -10,8 +10,8 @@ mkdir ~/.config/fish
 mkdir ~/.dotnet/tools
 echo "set PATH /var/tmp/coder/coder-cli  ~/.dotnet/tools $PATH" > ~/.config/fish/config.fish
 
-cp git.fish ~/.config/fish/git.fish
+cp ~/dotfiles/git.fish ~/.config/fish/git.fish
 fish ~/.config/fish/git.fish
 
-cp prompt_git.fish ~/.config/fish/prompt_git.fish
+cp ~/dotfiles/prompt_git.fish ~/.config/fish/prompt_git.fish
 fish ~/.config/fish/prompt_git.fish
