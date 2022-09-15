@@ -7,7 +7,8 @@ sudo apt-get install -y fish
 sudo chsh -s /usr/bin/fish $USER
 
 mkdir ~/.config/fish
-echo "set PATH /var/tmp/coder/coder-cli $PATH" > ~/.config/fish/config.fish
+mkdir ~/.dotnet/tools
+echo "set PATH /var/tmp/coder/coder-cli  ~/.dotnet/tools $PATH" > ~/.config/fish/config.fish
 
 cp git.fish ~/.config/fish/git.fish
 fish ~/.config/fish/git.fish
