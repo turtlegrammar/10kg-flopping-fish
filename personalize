@@ -11,4 +11,4 @@ fish fish-config/git.fish
 wget https://github.com/weavejester/fish-git/blob/master/functions/prompt_git.fish > fish-config/prompt_git.fish
 fish fish-config/prompt_git.fish
 
-echo "fish_add_path /var/tmp/coder/coder-cli" >> ~/.config/fish/config.fish
+echo "set PATH /var/tmp/coder/coder-cli $PATH" >> ~/.config/fish/config.fish
