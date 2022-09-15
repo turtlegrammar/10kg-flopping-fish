@@ -13,4 +13,3 @@ fish ~/.config/fish/git.fish
 
 wget https://github.com/weavejester/fish-git/blob/master/functions/prompt_git.fish > ~/.config/fish/prompt_git.fish
 fish ~/.config/fish/prompt_git.fish
-
