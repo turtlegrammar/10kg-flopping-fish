@@ -17,3 +17,5 @@ fish ~/.config/fish/git.fish
 
 cp ~/dotfiles/prompt_git.fish ~/.config/fish/prompt_git.fish
 fish ~/.config/fish/prompt_git.fish
+
+cd ~
